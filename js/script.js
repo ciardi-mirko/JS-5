@@ -35,7 +35,7 @@ function Indovina() {
 
     let input = parseInt(document.getElementById("input").value);
     if (numeri[numeri.length - 1] == input) {
-        pop("NUMERO GIA INSERITO ... RIPROVA");
+        alert("NUMERO GIA INSERITO ... RIPROVA");
     } else {
         numeri.push(input);
         if (input == numeroSegreto) {
