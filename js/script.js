@@ -34,7 +34,7 @@ function Indovina() {
 
 
     let input = parseInt(document.getElementById("input").value);
-    if (numeri[numeri.length - 1] == input) {
+    if (numeri.includes(input) == true) {
         alert("NUMERO GIA INSERITO ... RIPROVA");
     } else {
         numeri.push(input);
